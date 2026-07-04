@@ -1,20 +1,9 @@
-# yup-dirname
+[![actions](https://github.com/yupsh/yup-dirname/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-dirname/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-dirname/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-dirname/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-dirname/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-dirname/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-dirname/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-dirname/actions/workflows/shell.yml)
 
-```
-NAME:
-   dirname - strip last component from file name
-
-USAGE:
-   dirname [NAME...]
-
-   Output each NAME with its last non-slash component and trailing slashes
-   removed; if NAME contains no /'s, output '.' (meaning the current
-   directory). With no NAME, read paths from standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --help, -h  show help
-   --version   print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
